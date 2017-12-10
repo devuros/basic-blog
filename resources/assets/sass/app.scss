@@ -1,0 +1,239 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+}
+a {
+	text-decoration: none;
+}
+.total-width {
+	width: 100%;
+}
+.site-width {
+	width: 1000px;
+}
+.center {
+	margin: 0 auto;
+}
+.clear {
+	clear: both;
+}
+/* nav */
+#navbar {
+	height: 60px;
+	background-color: #2787c5;
+}
+#nav {
+	height: 60px;
+}
+#nav ul {
+	margin: 0;
+}
+#nav ul li {
+	list-style-type: none;
+	float: left;
+	line-height: 60px;
+	margin: 0 20px;
+}
+#nav ul li a {
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #e7e4e4;
+}
+#nav ul li a:hover {
+	color: white;
+}
+/* header */
+#header-bar {
+	height: 200px;
+	border-bottom: 1px solid #ccc;
+}
+#header {
+	height: 200px;
+}
+#header h1 {
+	padding-top: 60px;
+	margin-top: 5px;
+	font-size: 3.5em;
+}
+#header p {
+	font-weight: 600;
+	color: gray;
+}
+/* container */
+#container {
+	min-height: 498px;
+}
+#content {
+	margin-top: 50px;
+}
+#main {
+	width: 650px;
+	padding-right: 100px;
+	padding-bottom: 60px;
+	min-height: 498px;
+	float: left;
+}
+#sidebar {
+	width: 250px;
+	min-height: 498px;
+	float: right;
+}
+#sidebar-about {
+	width: 250px;
+	height: 250px;
+	background-color: #f3f2f2;
+	border-radius: 2px;
+}
+#sidebar-about h2 {
+	padding: 10px 10px;
+}
+#sidebar-about p {
+	padding: 10px 10px;
+}
+#sidebar-archives {
+	width: 250px;
+	padding-bottom: 50px;
+}
+#sidebar-archives h2 {
+	padding: 10px 10px;
+}
+#sidebar-archives ul {
+
+}
+#sidebar-archives ul li {
+	list-style-type: none;
+	padding: 5px 10px;
+}
+#sidebar-archives ul li a {
+	color: #2787c5;
+	font-weight: 600;
+}
+#sidebar-archives ul li a:hover {
+	text-decoration: underline;
+}
+#sidebar-elsewhere {
+	width: 250px;
+	padding-bottom: 50px;
+}
+#sidebar-elsewhere h2 {
+	padding: 10px 10px;
+}
+#sidebar-elsewhere ul li {
+	list-style-type: none;
+	padding: 5px 10px;
+}
+#sidebar-elsewhere ul li a {
+	color: #2787c5;
+	font-weight: 600;
+}
+#sidebar-elsewhere ul li a:hover {
+	text-decoration: underline;
+}
+/* footer */
+#footerbar {
+	height: 80px;
+	background-color: white;
+	border-top: 1px solid orange;
+}
+#footer {
+	height: 80px;
+}
+#footer p {
+	font-size: 1.5em;
+	color: #555;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+/* posts */
+.post {
+	width: 650px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+}
+.post h1 {
+	font-size: 2.5em;
+}
+.post h3 {
+	color: #999;
+}
+.post h3 a {
+	color: #2787c5;
+}
+.post p {
+	padding: 20px 0;
+	font-weight: bold;
+	color: #555;
+}
+.group {
+	float: left;
+	width: 100%;
+	padding: 5px 0px;
+}
+.group label {
+	display: block;
+	font-weight: bold;
+	padding: 5px 0;
+}
+.group input[type='text'] {
+	padding: 5px;
+	width: 100%;
+}
+.group p {
+	color: #999;
+	font-weight: 600;
+}
+#taBody {
+	resize: none;
+	width: 100%;
+	padding: 5px;
+	height: 60px;
+}
+#btnSubmit {
+	padding: 10px 15px;
+	color: white;
+	background-color: #2787c5;
+	border: 0;
+	border: 1px solid #2787c5;
+	border-radius: 2px;
+}
+article {
+	padding: 10px 20px;
+	margin: 10px 0;
+	border: 1px solid #999;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#taComment {
+	width: 600px;
+	resize: none;
+	padding: 5px;
+	height: 50px;
+	font-family: Arial;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#btnComment {
+	padding: 10px 15px;
+	color: white;
+	background-color: #2787c5;
+	border: 0;
+	border: 1px solid #2787c5;
+	border-radius: 2px;
+	margin-left: 20px;
+}

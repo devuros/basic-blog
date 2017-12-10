@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #f2f2f2;
+}
+.total-width {
+	width: 100%;
+}
+.site-width {
+	width: 1000px;
+}
+.center {
+	margin: 0 auto;
+}
+.clear {
+	clear: both;
+}
+/* nav */
+#navbar {
+	height: 60px;
+	background-color: black;
+}
+#nav {
+	height: 60px;
+}
+#nav-title {
+	width: 100px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+}
+#nav-title h1 {
+	color: white;
+}
+/* container */
+#container {
+	min-height: 498px;
+}
+#content {
+
+}
+/* footer */
+#footerbar {
+	height: 80px;
+	background-color: white;
+	border-top: 1px solid orange;
+}
+#footer {
+	height: 80px;
+}
+#footer p {
+	font-size: 1.5em;
+	color: #555;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+/* posts */
+#content-welcome {
+	height: 200px;
+	text-align: center;
+}
+#content-welcome h1 {
+	margin-top: 80px;
+}
+#content-welcome p {
+	margin-top: 10px;
+	color: #444;
+	font-weight: 600;
+}
+#content-posts {
+
+}
+.posts-row {
+	height: 156px;
+	float: left;
+	margin: 10px 0;
+}
+.post {
+	width: 307px;
+	height: 116px;
+	padding: 10px 10px;
+	margin: 0 3px;
+	float: left;
+	background-color: white;
+}
+.post-title {
+	font-size: 1em;
+	color: black;
+}
+.post-title span {
+	border: 1px solid #333;
+	font-weight: 600;
+}
+.post-body {
+	margin-top: 20px;
+}

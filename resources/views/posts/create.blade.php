@@ -9,7 +9,7 @@
 	<form method="POST" action="/posts">
 
 		{{-- pravi token koji stiti --}}
-		
+
 		{{ csrf_field() }}
 
 		<div class="form-group">
@@ -18,7 +18,7 @@
 			<input type="text" id="tbTitle" class="form-control" name="title">
 
 		</div>
-		
+
 		<div class="form-group">
 
 			<label for="taBody">Body</label>
@@ -27,7 +27,7 @@
 		</div>
 
 		<button type="submit" id="btnSubmit" class="btn btn-primary">Publish</button>
-		
+
 	</form>
 
 	@include ('layouts.error')
